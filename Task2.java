@@ -31,7 +31,7 @@ public class Task2 {
                 count++;
             } while (count <= max);
         } else if (n <= 0) {
-            System.err.print("Error. Number must be greater than zero and positive.");
+            System.out.print("Error");
         }
     } 
 }

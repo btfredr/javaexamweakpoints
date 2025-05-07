@@ -24,10 +24,10 @@ Sammenlign med mai 2024 Task 5 (tre løkker) og oktober 2024 Task 5 (vokaler/kon
 public class Task3 {
 
     public static void main(String[] args) {
-        analyzeStringInput("Code123 NOW!");
+        analyzeInput("Code123 NOW!");
     }
     
-    public static void analyzeStringInput(String input) {
+    public static void analyzeInput(String input) {
         int uppercase = 0;
         int digits = 0;
 

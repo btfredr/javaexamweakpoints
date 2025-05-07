@@ -50,7 +50,7 @@ public class Item {
     }
 
     // print method
-    public void printNameAndQuantity() {
+    public void print() {
         System.out.println("Name: " + getName());
         System.out.println("Quantity: " + getQuantity());
     }

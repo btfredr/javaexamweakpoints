@@ -18,5 +18,13 @@ package Task4;
  */
 
 public class Test {
+    public static void main(String[] args) {
+        Item item1 = new Item(1, "Book");
+
+        item1.print();
     
+        Item item2 = new Item(2, "Phone", 3);
+    
+        item2.print();
+    }
 }
