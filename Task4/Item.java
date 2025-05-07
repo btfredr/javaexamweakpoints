@@ -37,6 +37,18 @@ public class Item {
     private String name;
     private int quantity;
 
+    // Constructors
+    public Item(int itemID, String name) {
+        this.itemID = itemID;
+        this.name = name;
+    }
+
+    public Item(int itemID, String name, int quantity) {
+        this.itemID = itemID;
+        this.name = name;
+        this.quantity = quantity;
+    }
+
     // Getters and setters
     public int getItemID() {
         return itemID;
