@@ -21,6 +21,24 @@ Sammenlign med mai 2024 Task 5 (tre løkker) og oktober 2024 Task 5 (vokaler/kon
  */
 
 
-public class Task4 {
+public class Task3 {
+
+    public static void main(String[] args) {
+        analyzeStringInput("Code123 NOW!");
+    }
     
+    public static void analyzeStringInput(String input) {
+        int uppercase = 0;
+        int digits = 0;
+
+        for (int i = 0; i < input.length(); i++) {
+            char c = input.charAt(i);
+            if (Character.isUpperCase(c)) uppercase++;
+            else if (Character.isDigit(c)) digits++;
+        }
+
+        System.out.println("The string contains " + uppercase + " uppercase letters!");
+        System.out.println("The string contains " + digits + " digits!");
+        System.out.println("The string is " + input.length() + " characters long!");
+    }
 }
