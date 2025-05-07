@@ -16,7 +16,12 @@ Sammenlign med mai 2025-mock Task 1 (delelighet med 3) og oktober 2024 Task 1 (p
 */
 
 public class Task1 {
-    public int greaterOrEqual(double n) {
+    public static void main(String[] args) {
+        System.out.println(greaterOrEqual(15.7));
+        System.out.println(greaterOrEqual(14.0));
+        System.out.println(greaterOrEqual(-8.9));
+    }
+    public static int greaterOrEqual(double n) {
         return (int) Math.ceil(n / 7.0) * 7;
     }
 }
