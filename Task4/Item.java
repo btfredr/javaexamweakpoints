@@ -1,3 +1,4 @@
+package Task4;
 /*
     Øvingsoppgave 4: OOP-konstruktører (20 poeng)
     Requirement: Create a Java program to manage inventory items.
@@ -31,6 +32,33 @@
  */
 
 
-public class Task4 {
-    
+public class Item {
+    private int itemID;
+    private String name;
+    private int quantity;
+
+    // Getters and setters
+    public int getItemID() {
+        return itemID;
+    }
+
+    public void setItemID(int itemID) {
+        this.itemID = itemID;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    } 
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
 }
