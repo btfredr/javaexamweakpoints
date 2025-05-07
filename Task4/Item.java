@@ -49,6 +49,12 @@ public class Item {
         this.quantity = quantity;
     }
 
+    // print method
+    public void printNameAndQuantity() {
+        System.out.println("Name: " + getName());
+        System.out.println("Quantity: " + getQuantity());
+    }
+
     // Getters and setters
     public int getItemID() {
         return itemID;
